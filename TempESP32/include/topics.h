@@ -1,0 +1,5 @@
+#define TOPIC_TEMP "/JAPASE/TEMP"
+#define DADES_TEMP "/novesDades"
+#define DADES_HUMI "/novesDadesHumitat"
+#define TOPIC_HEAT "/JAPASE/HeatIndex"
+#define TOPIC_REQTemp "/reqTemp"
