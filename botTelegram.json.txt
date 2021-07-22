@@ -1,0 +1,21 @@
+[
+    {
+        "id": "971635f3.1f80e8",
+        "type": "function",
+        "z": "d38d4bc.c0803b8",
+        "name": "",
+        "func": "msg.payload = {\n  \"content\": \"Atenció han arrivat noves dades de Badalona\\n la humitat actual és de: \"+msg.payload +\"%\",\n  \"chatId\" : 808987184,\n  \"type\" : \"message\"\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 540,
+        "wires": [
+            [
+                "efe1359d.37d928"
+            ]
+        ]
+    }
+]
